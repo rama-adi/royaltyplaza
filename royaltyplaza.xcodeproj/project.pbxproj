@@ -7,18 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2511BD402A23C83A00293C8E /* CustomerStoreInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511BD3F2A23C83A00293C8E /* CustomerStoreInfoViewModel.swift */; };
+		2511BD442A23C95600293C8E /* CustomerCouponViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511BD432A23C95600293C8E /* CustomerCouponViewSheet.swift */; };
+		2511BD472A23C98A00293C8E /* QRCode in Frameworks */ = {isa = PBXBuildFile; productRef = 2511BD462A23C98A00293C8E /* QRCode */; };
+		2511BD492A23D46800293C8E /* OverlayableLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511BD482A23D46800293C8E /* OverlayableLoadingIndicator.swift */; };
+		2511BD4E2A23E1F200293C8E /* WorkerHomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511BD4D2A23E1F200293C8E /* WorkerHomepage.swift */; };
+		2511BD512A23E92B00293C8E /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 2511BD502A23E92B00293C8E /* CodeScanner */; };
+		2511BD532A23ECA300293C8E /* WorkerHomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2511BD522A23ECA300293C8E /* WorkerHomepageViewModel.swift */; };
 		252D5F132A226EB7000931BC /* royaltyplazaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D5F122A226EB7000931BC /* royaltyplazaApp.swift */; };
 		252D5F152A226EB7000931BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252D5F142A226EB7000931BC /* ContentView.swift */; };
 		252D5F172A226EB8000931BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252D5F162A226EB8000931BC /* Assets.xcassets */; };
 		252D5F1A2A226EB8000931BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252D5F192A226EB8000931BC /* Preview Assets.xcassets */; };
+		257879712A234E7B003A7851 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257879702A234E7B003A7851 /* Onboarding.swift */; };
+		257879742A2350DD003A7851 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257879732A2350DD003A7851 /* AppEnvironment.swift */; };
+		257879772A23529C003A7851 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257879762A23529C003A7851 /* SignIn.swift */; };
+		2588EC332A238CBF0081407E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2588EC322A238CBF0081407E /* Alamofire */; };
+		2588EC352A238DCE0081407E /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC342A238DCE0081407E /* UserAPI.swift */; };
+		2588EC372A238F4C0081407E /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC362A238F4C0081407E /* SignInViewModel.swift */; };
+		2588EC3B2A2392C40081407E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 2588EC3A2A2392C40081407E /* SwiftyJSON */; };
+		2588EC3D2A2393360081407E /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC3C2A2393360081407E /* APIResponse.swift */; };
+		2588EC412A2398BE0081407E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC402A2398BE0081407E /* APIManager.swift */; };
+		2588EC432A2399640081407E /* LoyaltyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC422A2399640081407E /* LoyaltyAPI.swift */; };
+		2588EC452A239D800081407E /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC442A239D800081407E /* ActivityIndicator.swift */; };
+		2588EC472A239F3F0081407E /* StoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC462A239F3F0081407E /* StoreAPI.swift */; };
+		2588EC492A23A5A60081407E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC482A23A5A60081407E /* Store.swift */; };
+		2588EC4B2A23A84F0081407E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC4A2A23A84E0081407E /* User.swift */; };
+		2588EC4E2A23AA7E0081407E /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC4D2A23AA7E0081407E /* Homepage.swift */; };
+		2588EC502A23AEE60081407E /* Loyalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC4F2A23AEE50081407E /* Loyalty.swift */; };
+		2588EC532A23B1220081407E /* Colorful in Frameworks */ = {isa = PBXBuildFile; productRef = 2588EC522A23B1220081407E /* Colorful */; };
+		2588EC562A23B7330081407E /* Color+Manipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC552A23B7330081407E /* Color+Manipulation.swift */; };
+		2588EC582A23BD0E0081407E /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC572A23BD0E0081407E /* Coupon.swift */; };
+		2588EC5B2A23BD6A0081407E /* CustomerStoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC5A2A23BD6A0081407E /* CustomerStoreInfo.swift */; };
+		2588EC612A23C0760081407E /* HomepageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588EC602A23C0760081407E /* HomepageViewModel.swift */; };
+		25CC8C8E2A236EBE0090A8C0 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC8C8D2A236EBE0090A8C0 /* Routes.swift */; };
+		25CC8C912A236F2E0090A8C0 /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CC8C902A236F2E0090A8C0 /* ViewFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2511BD3F2A23C83A00293C8E /* CustomerStoreInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerStoreInfoViewModel.swift; sourceTree = "<group>"; };
+		2511BD432A23C95600293C8E /* CustomerCouponViewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCouponViewSheet.swift; sourceTree = "<group>"; };
+		2511BD482A23D46800293C8E /* OverlayableLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayableLoadingIndicator.swift; sourceTree = "<group>"; };
+		2511BD4D2A23E1F200293C8E /* WorkerHomepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerHomepage.swift; sourceTree = "<group>"; };
+		2511BD522A23ECA300293C8E /* WorkerHomepageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerHomepageViewModel.swift; sourceTree = "<group>"; };
 		252D5F0F2A226EB7000931BC /* royaltyplaza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = royaltyplaza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		252D5F122A226EB7000931BC /* royaltyplazaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = royaltyplazaApp.swift; sourceTree = "<group>"; };
 		252D5F142A226EB7000931BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		252D5F162A226EB8000931BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252D5F192A226EB8000931BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		257879702A234E7B003A7851 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		257879732A2350DD003A7851 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		257879762A23529C003A7851 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		2588EC342A238DCE0081407E /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		2588EC362A238F4C0081407E /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		2588EC382A23919A0081407E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2588EC3C2A2393360081407E /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		2588EC402A2398BE0081407E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2588EC422A2399640081407E /* LoyaltyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyAPI.swift; sourceTree = "<group>"; };
+		2588EC442A239D800081407E /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		2588EC462A239F3F0081407E /* StoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAPI.swift; sourceTree = "<group>"; };
+		2588EC482A23A5A60081407E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		2588EC4A2A23A84E0081407E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2588EC4D2A23AA7E0081407E /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		2588EC4F2A23AEE50081407E /* Loyalty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loyalty.swift; sourceTree = "<group>"; };
+		2588EC552A23B7330081407E /* Color+Manipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Manipulation.swift"; sourceTree = "<group>"; };
+		2588EC572A23BD0E0081407E /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		2588EC5A2A23BD6A0081407E /* CustomerStoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerStoreInfo.swift; sourceTree = "<group>"; };
+		2588EC602A23C0760081407E /* HomepageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewModel.swift; sourceTree = "<group>"; };
+		25CC8C8D2A236EBE0090A8C0 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		25CC8C902A236F2E0090A8C0 /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +82,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2511BD472A23C98A00293C8E /* QRCode in Frameworks */,
+				2588EC3B2A2392C40081407E /* SwiftyJSON in Frameworks */,
+				2588EC332A238CBF0081407E /* Alamofire in Frameworks */,
+				2588EC532A23B1220081407E /* Colorful in Frameworks */,
+				2511BD512A23E92B00293C8E /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2511BD4A2A23E04D00293C8E /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				2588EC592A23BD580081407E /* CustomerStoreInfo */,
+				2588EC4C2A23AA3A0081407E /* Homepage */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		2511BD4B2A23E05900293C8E /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				2511BD4C2A23E1E200293C8E /* WorkerHomepage */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		2511BD4C2A23E1E200293C8E /* WorkerHomepage */ = {
+			isa = PBXGroup;
+			children = (
+				2511BD4D2A23E1F200293C8E /* WorkerHomepage.swift */,
+				2511BD522A23ECA300293C8E /* WorkerHomepageViewModel.swift */,
+			);
+			path = WorkerHomepage;
+			sourceTree = "<group>";
+		};
 		252D5F062A226EB7000931BC = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +138,12 @@
 		252D5F112A226EB7000931BC /* royaltyplaza */ = {
 			isa = PBXGroup;
 			children = (
+				2588EC542A23B71B0081407E /* Extensions */,
+				2588EC382A23919A0081407E /* Info.plist */,
+				25CC8C8F2A236F1E0090A8C0 /* Routing */,
+				257879782A23610B003A7851 /* Http */,
+				257879722A2350D1003A7851 /* Model */,
+				2578796E2A234E58003A7851 /* Views */,
 				252D5F122A226EB7000931BC /* royaltyplazaApp.swift */,
 				252D5F142A226EB7000931BC /* ContentView.swift */,
 				252D5F162A226EB8000931BC /* Assets.xcassets */,
@@ -65,6 +158,96 @@
 				252D5F192A226EB8000931BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2578796E2A234E58003A7851 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				257879752A235293003A7851 /* SignIn */,
+				2578796F2A234E6C003A7851 /* Onboarding */,
+				2511BD4B2A23E05900293C8E /* Worker */,
+				2511BD4A2A23E04D00293C8E /* Customer */,
+				2588EC442A239D800081407E /* ActivityIndicator.swift */,
+				2511BD482A23D46800293C8E /* OverlayableLoadingIndicator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2578796F2A234E6C003A7851 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				257879702A234E7B003A7851 /* Onboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		257879722A2350D1003A7851 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				257879732A2350DD003A7851 /* AppEnvironment.swift */,
+				2588EC3C2A2393360081407E /* APIResponse.swift */,
+				2588EC482A23A5A60081407E /* Store.swift */,
+				2588EC4A2A23A84E0081407E /* User.swift */,
+				2588EC4F2A23AEE50081407E /* Loyalty.swift */,
+				2588EC572A23BD0E0081407E /* Coupon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		257879752A235293003A7851 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				257879762A23529C003A7851 /* SignIn.swift */,
+				2588EC362A238F4C0081407E /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		257879782A23610B003A7851 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				2588EC342A238DCE0081407E /* UserAPI.swift */,
+				2588EC402A2398BE0081407E /* APIManager.swift */,
+				2588EC422A2399640081407E /* LoyaltyAPI.swift */,
+				2588EC462A239F3F0081407E /* StoreAPI.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		2588EC4C2A23AA3A0081407E /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				2588EC4D2A23AA7E0081407E /* Homepage.swift */,
+				2588EC602A23C0760081407E /* HomepageViewModel.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		2588EC542A23B71B0081407E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2588EC552A23B7330081407E /* Color+Manipulation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2588EC592A23BD580081407E /* CustomerStoreInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2588EC5A2A23BD6A0081407E /* CustomerStoreInfo.swift */,
+				2511BD3F2A23C83A00293C8E /* CustomerStoreInfoViewModel.swift */,
+				2511BD432A23C95600293C8E /* CustomerCouponViewSheet.swift */,
+			);
+			path = CustomerStoreInfo;
+			sourceTree = "<group>";
+		};
+		25CC8C8F2A236F1E0090A8C0 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				25CC8C8D2A236EBE0090A8C0 /* Routes.swift */,
+				25CC8C902A236F2E0090A8C0 /* ViewFactory.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +266,13 @@
 			dependencies = (
 			);
 			name = royaltyplaza;
+			packageProductDependencies = (
+				2588EC322A238CBF0081407E /* Alamofire */,
+				2588EC3A2A2392C40081407E /* SwiftyJSON */,
+				2588EC522A23B1220081407E /* Colorful */,
+				2511BD462A23C98A00293C8E /* QRCode */,
+				2511BD502A23E92B00293C8E /* CodeScanner */,
+			);
 			productName = royaltyplaza;
 			productReference = 252D5F0F2A226EB7000931BC /* royaltyplaza.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +301,13 @@
 				Base,
 			);
 			mainGroup = 252D5F062A226EB7000931BC;
+			packageReferences = (
+				2588EC312A238CBF0081407E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2588EC392A2392C40081407E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				2588EC512A23B1220081407E /* XCRemoteSwiftPackageReference "Colorful" */,
+				2511BD452A23C98A00293C8E /* XCRemoteSwiftPackageReference "qrcode" */,
+				2511BD4F2A23E92B00293C8E /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 252D5F102A226EB7000931BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +334,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2588EC502A23AEE60081407E /* Loyalty.swift in Sources */,
+				2588EC492A23A5A60081407E /* Store.swift in Sources */,
+				2511BD402A23C83A00293C8E /* CustomerStoreInfoViewModel.swift in Sources */,
+				2588EC612A23C0760081407E /* HomepageViewModel.swift in Sources */,
+				2588EC412A2398BE0081407E /* APIManager.swift in Sources */,
+				2511BD532A23ECA300293C8E /* WorkerHomepageViewModel.swift in Sources */,
+				257879712A234E7B003A7851 /* Onboarding.swift in Sources */,
+				25CC8C8E2A236EBE0090A8C0 /* Routes.swift in Sources */,
+				2511BD4E2A23E1F200293C8E /* WorkerHomepage.swift in Sources */,
+				2588EC4B2A23A84F0081407E /* User.swift in Sources */,
+				257879742A2350DD003A7851 /* AppEnvironment.swift in Sources */,
+				2588EC452A239D800081407E /* ActivityIndicator.swift in Sources */,
+				2588EC3D2A2393360081407E /* APIResponse.swift in Sources */,
+				2588EC472A239F3F0081407E /* StoreAPI.swift in Sources */,
+				2588EC562A23B7330081407E /* Color+Manipulation.swift in Sources */,
+				257879772A23529C003A7851 /* SignIn.swift in Sources */,
+				2588EC5B2A23BD6A0081407E /* CustomerStoreInfo.swift in Sources */,
+				2588EC352A238DCE0081407E /* UserAPI.swift in Sources */,
+				2588EC372A238F4C0081407E /* SignInViewModel.swift in Sources */,
 				252D5F152A226EB7000931BC /* ContentView.swift in Sources */,
+				2511BD442A23C95600293C8E /* CustomerCouponViewSheet.swift in Sources */,
+				2511BD492A23D46800293C8E /* OverlayableLoadingIndicator.swift in Sources */,
+				2588EC582A23BD0E0081407E /* Coupon.swift in Sources */,
+				2588EC4E2A23AA7E0081407E /* Homepage.swift in Sources */,
+				25CC8C912A236F2E0090A8C0 /* ViewFactory.swift in Sources */,
 				252D5F132A226EB7000931BC /* royaltyplazaApp.swift in Sources */,
+				2588EC432A2399640081407E /* LoyaltyAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +492,7 @@
 				DEVELOPMENT_TEAM = QH9X33Y55J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = royaltyplaza/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +522,7 @@
 				DEVELOPMENT_TEAM = QH9X33Y55J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = royaltyplaza/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +563,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2511BD452A23C98A00293C8E /* XCRemoteSwiftPackageReference "qrcode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dagronf/qrcode.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		2511BD4F2A23E92B00293C8E /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		2588EC312A238CBF0081407E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2588EC392A2392C40081407E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2588EC512A23B1220081407E /* XCRemoteSwiftPackageReference "Colorful" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lakr233/Colorful.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2511BD462A23C98A00293C8E /* QRCode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2511BD452A23C98A00293C8E /* XCRemoteSwiftPackageReference "qrcode" */;
+			productName = QRCode;
+		};
+		2511BD502A23E92B00293C8E /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2511BD4F2A23E92B00293C8E /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		2588EC322A238CBF0081407E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2588EC312A238CBF0081407E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2588EC3A2A2392C40081407E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2588EC392A2392C40081407E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		2588EC522A23B1220081407E /* Colorful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2588EC512A23B1220081407E /* XCRemoteSwiftPackageReference "Colorful" */;
+			productName = Colorful;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 252D5F072A226EB7000931BC /* Project object */;
 }

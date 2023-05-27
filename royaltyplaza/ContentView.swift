@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @EnvironmentObject var appEnv: AppEnvironment
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            //Text("Nigger")
+        }.onAppear {
+            appEnv.pushTo(Routes.onboarding)
         }
-        .padding()
     }
+    
+   
 }
 
 struct ContentView_Previews: PreviewProvider {
