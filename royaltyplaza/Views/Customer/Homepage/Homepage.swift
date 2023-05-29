@@ -28,21 +28,23 @@ struct Homepage: View {
                             .interpolatingSpring(stiffness: 50, damping: 1)
                             .speed(0.2),
                         colors: appEnv.loyalties.compactMap { Color(hex: $0.backgroundColor)
-                                .desaturate(by:30)
                                 .lighten(by: 70)
+                                .desaturate(by:40)
+                                
                             
                         },
                         colorCount: 100
                     )
                     
                     
-                    VStack(alignment: .leading) {
+                    VStack(alignment: .leading, spacing: -8) {
                         
                         Spacer()
                         
                         Text("\(appEnv.user.name)")
                             .font(.title)
                             .fontWeight(.bold)
+
                         
                         Text("\(appEnv.loyalties.count) Loyalties")
                             .font(.title2)
@@ -52,9 +54,9 @@ struct Homepage: View {
                     .padding()
                 }
                 .frame(height: 200)
-                .background(Color.blue.opacity(0.2))
+                .background(Color.white)
                 .cornerRadius(10)
-                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray.opacity(0.2), lineWidth: 2))
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray.opacity(0.5), lineWidth: 2))
                 
                 
                 Text("Your loyalties")
